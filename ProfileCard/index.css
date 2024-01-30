@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background: #ecf0f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card button:hover{
+    background: linear-gradient(white,#ecf0f3);
+}
+
+.card{
+    cursor: pointer;
+    height: 470px;
+    width: 350px;
+    text-align: center;
+    background: #ecf0f3;
+    box-shadow: rgb(255,255,255) -3px -3px 7px 0px, rgb(206,206,209) 3px 3px 5px 0px;
+    border: 1px solid #ecf0f3;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card h1{
+    color: #31344B;
+    font-size: 23px ;
+    font-weight: bold;
+}
+
+
+.card p{
+    color: #31344B;
+    font-size: 16px ;
+    font-weight: lighter;
+   
+}
+
+.btn{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    margin-top: -50px;
+}
+
+.card button{
+    height: 50px;
+    width: 135px;
+    background: #ecf0f3;
+    box-shadow: rgb(255,255,255) -3px -3px 7px 0px, rgb(206,206,209) 3px 3px 5px 0px;
+    color: #31344B;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 2px white;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 1px solid white;
+
+}
+
+.card img{
+    border-radius: 50%;
+    border: 20px solid white;
+}
+
+.card .icon{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .icon button{
+    height: 35px;
+    width: 35px;
+    background: #ecf0f3;
+    box-shadow: rgb(255,255,255) -3px -3px 7px 0px, rgb(206,206,209) 3px 3px 5px 0px;
+    border-radius: 50%;
+}
+
+.card .csl{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+
+.card .csl button{
+    border: 1px solid transparent;
+    border-right: 2px solid gray;
+    border-radius: 0px;
+    background: #ecf0f3;
+    box-shadow: rgb(255,255,255) -3px -3px 7px 0px, rgb(206,206,209) 3px 3px 5px 0px;
+}

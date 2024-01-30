@@ -1,0 +1,15 @@
+a:visited{
+    color: yellow;
+}
+
+a:link{
+    color: green;
+}
+
+a:active{
+    color: black;
+}
+
+p:hover{
+    color: red;
+}

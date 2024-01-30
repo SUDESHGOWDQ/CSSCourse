@@ -1,0 +1,28 @@
+footer{
+    height: auto;
+    width: 100%;
+    background: black;
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer div{
+    height: 300px;
+    width: 300px;
+}
+
+#box1,#box3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#box2{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+
+}

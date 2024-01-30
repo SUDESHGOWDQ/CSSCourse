@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Montserrat:wght@400;700&family=Poppins:ital,wght@1,300&family=Qwitcher+Grypen&family=Rubik+Iso&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F6F5F7;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius:10px;
+    background: #FF4360;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.left{
+    background: #FFFFFF;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+
+.left p{
+    font-size: 14px;
+    color: grey;
+    background: #FFFFFF;
+}
+
+.left h1{
+    font-size: 32px;
+    font-weight: 700;
+    background: #FFFFFF;
+}
+
+.left .icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+    background: #FFFFFF;
+}
+
+.left .form{
+    margin: 30px;
+    background: #FFFFFF;
+}
+
+
+.form input{
+    height: 39px;
+    width: 284px;
+    margin: 8px 0px 8px 0px;
+    text-align: center;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    border: 1px solid #EEEEEE;
+}
+
+.form button{
+    background-color: #FF4B2B;
+    height: 40px;
+    width: 144px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border:1px solid #FF4B2B;
+}
+
+.left .icons i{
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.right{
+    background: #FF4360;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 10px;
+}
+
+
+.right h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    background-color: #FF4360;
+    margin: 20px;
+}
+
+.right p{
+    background-color: #FF4360;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    color: #F6F5F7;
+    margin: 20px;
+}
+
+.right button{
+    height: 40px;
+    width:149px;
+    padding: 12px 45px;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    margin: 20px;
+    background: #FF4360;
+    color: white;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .form input{
+        width: 100px;
+    }
+}
+

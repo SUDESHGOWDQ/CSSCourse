@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height:55px;
+    width: 100%;
+    background-color:#F2F2F2;
+}
+
+.navart{
+    height: 55px;
+    width: 80%;
+    background:#F2F2F2;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(55, 52, 52);
+    font-size: 15px;
+}

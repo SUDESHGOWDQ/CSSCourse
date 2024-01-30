@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+    text-shadow: 7px 7px 5px black;
+    text-indent: 100px;
+    
+
+}
+
+p{
+    text-align: justify;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+

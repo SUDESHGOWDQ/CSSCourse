@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+   
+}
+
+section h1{
+    font-size: 100px;
+    opacity: 0.7;
+    z-index: 1;
+}

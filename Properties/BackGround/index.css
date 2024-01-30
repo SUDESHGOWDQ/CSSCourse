@@ -1,0 +1,40 @@
+/* section{
+    background:red;
+    height: 100vh;
+} */
+
+
+/* section{
+    height: 90vh;
+    background: linear-gradient(90deg,red,black,blue,orange,purple,pink,crimson,brown,teal,olive,green,grey,yellow,white,greenyellow,darkred,darkblue,aqua);
+} */
+
+
+/* section{
+    height: 90vh;
+    background: radial-gradient(orange,white,green);
+} */
+
+
+/* section{
+    background: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    height: 100vh
+    ;
+} */
+
+/* section{
+    height: 55px;
+    background: #131921;
+} */
+
+
+section{
+    background: url("https://t4.ftcdn.net/jpg/01/37/12/53/360_F_137125386_BsP99PO23pTsIIToqUj2jl3GqMUkYpwa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    font-size: 50px;
+}

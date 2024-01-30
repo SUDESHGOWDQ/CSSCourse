@@ -1,0 +1,40 @@
+section{
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    gap: 30px;
+    position:sticky;
+    top: 0;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(red,teal);
+}
+
+/* #box2{
+    position: static;
+    top: 100px;
+    left: 100px;
+} */
+
+/* 
+#box2{
+    position: relative;
+    top: 100px;
+    left: 100px;
+} */
+
+/* #box2{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+} */
+/* 
+#box2{
+    position: fixed;
+    left: 1100px;
+    top: 400px;
+} */

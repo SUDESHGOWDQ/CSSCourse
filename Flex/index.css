@@ -1,0 +1,17 @@
+section{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(teal,red);
+    border: 1px solid green;
+}

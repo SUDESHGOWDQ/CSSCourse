@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+h1{
+    font-family: 'Kenia', sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant:small-caps;
+}

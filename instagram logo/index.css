@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.outer{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background: linear-gradient(#3F5DD9,#FF0195,#FEA821);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    border: 15px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border:10px solid white;
+    position: relative;
+}
+
+.circle::after{
+    content: "";
+    height: 17px;
+    width: 17px;
+    display: block;
+    background:white;
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    border-radius: 50%;
+}

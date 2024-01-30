@@ -1,0 +1,20 @@
+p{
+    color: red;
+}
+
+#p2{
+    background-color: black;
+}
+
+.pc1{
+    text-align: center;
+}
+
+#h1,.hc1,h3{
+    font-size: 100px;
+    text-align: center;
+}
+
+*{
+    background-color: yellow;
+}

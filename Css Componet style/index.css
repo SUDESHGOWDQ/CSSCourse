@@ -1,0 +1,8 @@
+@import url("./Navbar.css");
+@import url("./Header.css");
+@import url("./Section.css");
+@import url("./Footer.css");
+
+body{
+    background-color: black;
+}

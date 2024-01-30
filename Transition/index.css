@@ -1,0 +1,20 @@
+div{
+    height: 200px;
+    width: 200px;
+    background: crimson;
+    transition-delay:5s ;
+    transition-duration: 10s;
+    transition-timing-function: ease-in-out;
+}
+
+/* div:hover{
+    transform: rotate(3600deg);
+} */
+/* 
+div:hover{
+    transform: scale(0.2);
+} */
+/* 
+div:hover{
+    transform: skew(40deg);
+} */

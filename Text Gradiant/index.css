@@ -1,0 +1,8 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+    background: -webkit-image-set("https://i.pinimg.com/originals/d4/3c/11/d43c11d76c7db33af616426597e88833.gif");
+    -webkit-background-clip: text;
+    background-position-y:-200px ;
+    -webkit-text-fill-color: transparent;
+}

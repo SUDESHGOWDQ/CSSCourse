@@ -1,0 +1,21 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+}
+
+/* div:hover{
+    transform: rotate(45deg);
+} */
+/* 
+div:hover{
+    transform: scale(0.5);
+} */
+
+/* div:hover{
+    transform: skew(40deg);
+} */
+
+div:hover{
+    transform: translate(10px,10px);
+}

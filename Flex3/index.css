@@ -1,0 +1,23 @@
+section{
+    height: 400px;
+    width: 100%;
+    background: black;
+    display: flex;
+    gap: 10px;
+    flex-direction:row ;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(yellowgreen,orange);
+}
+
+#item2{
+    flex-grow: 2;
+}
+
+
+/* #item2{
+    flex-shrink: 0;
+} */

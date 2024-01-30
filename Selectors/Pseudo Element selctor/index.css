@@ -1,0 +1,25 @@
+p::first-letter{
+    font-size: 100px;
+}
+
+p::first-line{
+color: crimson;
+}
+
+p::after{
+    content: url("https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRQVl3aJmgD8oYJcWajhqN9WQjuBy4EcASiYPfZ8atKGAh-LWMJ1cM-b69WsHrMJ7jn4c0PFTQEkW38QQI");
+}
+
+p::before{
+    content: url("https://feeds.abplive.com/onecms/images/uploaded-images/2023/01/15/9095d7a1022baf46f2a77946cba0a4e41673783448564300_original.jpg");
+}
+
+p::selection{
+    background-color: black;
+    color: red;
+}
+
+
+li::marker{
+    color: green;
+}

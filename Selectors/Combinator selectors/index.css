@@ -1,0 +1,15 @@
+div p{
+    color:green;
+}
+
+div>p{
+    background-color: black;
+}
+
+div+p{
+    color: yellow;
+}
+
+div~p{
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+div{
+    height: 250px;
+    width: 50px;
+    border-right: 50px solid red;
+    border-left: 50px solid red;
+}
+
+div::before{
+    content:"";
+    display: block;
+    background: red;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 30px black;
+    transform: skew(20.5deg);
+}
